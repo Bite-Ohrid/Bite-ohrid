@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bite Ohrid | Coffee, Food & Hookah</title>
-    <meta name="description" content="Welcome to Bite Ohrid — your cozy escape in the heart of Ohrid. We serve premium coffee, healthy food, and the finest hookah experience.">
-    <meta property="og:title" content="Bite Ohrid | Coffee, Food & Hookah">
-    <meta property="og:description" content="Your cozy escape in the heart of Ohrid. Premium coffee, healthy food, and the finest hookah experience.">
+    <title>BITE Ohrid | Healthy Food, Coffee & Tobacco</title>
+    <meta name="description" content="Welcome to BITE Ohrid — healthy food, premium Lavazza coffee, matcha, fresh juices, smoothies & tobacco. Located at Булевар Македонски Просветители, Охрид.">
+    <meta property="og:title" content="BITE Ohrid | Healthy Food, Coffee & Tobacco">
+    <meta property="og:description" content="Healthy food, premium Lavazza coffee, fresh juices, smoothies & tobacco in the heart of Ohrid. ⭐ 4.8 rating.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="fallback_image_url">
+    <meta property="og:url" content="https://bite-ohrid.github.io/Bite-ohrid/">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -26,7 +26,7 @@
     <!-- Navigation -->
     <header class="header">
         <nav class="navbar">
-            <a href="#" class="logo-link">
+            <a href="#home" class="logo-link">
                 <img id="logo" src="" alt="BITE" style="display:none;">
                 <span class="logo-text">BITE</span>
             </a>
@@ -35,6 +35,7 @@
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#hours">Hours</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://wolt.com/mk/mkd/ohrid/restaurant/bite10" target="_blank" class="nav-order-btn">🛵 Order on Wolt</a></li>
             </ul>
             <div class="hamburger">
                 <i class="fas fa-bars"></i>
@@ -44,10 +45,16 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
+        <div class="hero-overlay"></div>
         <div class="hero-content fade-in">
-            <h1>Bite Ohrid</h1>
-            <p class="tagline">Coffee • Food • Hookah — Ohrid</p>
-            <a href="#menu" class="btn-primary">View Menu</a>
+            <div class="hero-badge">⭐ 4.8 / 5 — 551 Reviews</div>
+            <h1>BITE</h1>
+            <p class="tagline">Healthy Food • Coffee • Tobacco</p>
+            <p class="hero-subtitle">Ohrid, North Macedonia</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">View Menu</a>
+                <a href="https://wolt.com/mk/mkd/ohrid/restaurant/bite10" target="_blank" class="btn-secondary">🛵 Order Now</a>
+            </div>
         </div>
     </section>
 
@@ -55,24 +62,69 @@
     <section class="about" id="about">
         <div class="container">
             <div class="about-text fade-in">
-                <h2>About Us</h2>
-                <p>Welcome to Bite Ohrid — your cozy escape in the heart of Ohrid. We serve premium coffee, healthy food, and the finest hookah experience. Come for the taste, stay for the vibe.</p>
+                <h2>Welcome to BITE</h2>
+                <p>Your cozy escape in the heart of Ohrid. We serve premium Lavazza coffee, matcha, healthy food, fresh juices & smoothies, and the finest tobacco experience. Come for the taste, stay for the vibe. ☕️</p>
+                <p class="about-tagline">200 – 400 ден · Vegan Options · Terrace Seating</p>
             </div>
             <div class="features">
                 <div class="feature-card slide-up">
                     <i class="fas fa-coffee"></i>
                     <h3>Premium Coffee</h3>
-                    <p>Expertly brewed coffee to start your day right.</p>
+                    <p>Lavazza coffee, matcha, iced lattes & more — expertly crafted for your daily energy boost.</p>
                 </div>
                 <div class="feature-card slide-up" style="transition-delay: 0.1s;">
                     <i class="fas fa-leaf"></i>
                     <h3>Healthy Food</h3>
-                    <p>Delicious and nutritious meals for every taste.</p>
+                    <p>Smoothie bowls, hummus sandwiches, fresh salads & nutritious meals made with love.</p>
                 </div>
                 <div class="feature-card slide-up" style="transition-delay: 0.2s;">
+                    <i class="fas fa-blender"></i>
+                    <h3>Fresh Juices</h3>
+                    <p>Fresh orange juice, watermelon lemonade, smoothies & refreshing drinks for every mood.</p>
+                </div>
+                <div class="feature-card slide-up" style="transition-delay: 0.3s;">
                     <i class="fas fa-smoking"></i>
-                    <h3>Hookah Lounge</h3>
-                    <p>Relax and unwind with our finest shisha flavors.</p>
+                    <h3>Tobacco Lounge</h3>
+                    <p>Relax on our terrace and unwind with the finest tobacco & hookah experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Section -->
+    <section class="popular" id="popular">
+        <div class="container">
+            <h2 class="fade-in">Popular Picks ❤️</h2>
+            <div class="popular-grid">
+                <div class="popular-card slide-up">
+                    <div class="popular-icon">🥪</div>
+                    <h3>Hummus Sandwich</h3>
+                    <span class="popular-badge">Popular</span>
+                </div>
+                <div class="popular-card slide-up" style="transition-delay: 0.1s;">
+                    <div class="popular-icon">🥣</div>
+                    <h3>Smoothie Bowl</h3>
+                    <span class="popular-badge">Must Try</span>
+                </div>
+                <div class="popular-card slide-up" style="transition-delay: 0.2s;">
+                    <div class="popular-icon">🥜</div>
+                    <h3>Peanut Ball</h3>
+                    <span class="popular-badge">New</span>
+                </div>
+                <div class="popular-card slide-up" style="transition-delay: 0.3s;">
+                    <div class="popular-icon">☕</div>
+                    <h3>Iced Latte</h3>
+                    <span class="popular-badge">Fan Favorite</span>
+                </div>
+                <div class="popular-card slide-up" style="transition-delay: 0.4s;">
+                    <div class="popular-icon">🐟</div>
+                    <h3>Salmon Sandwich</h3>
+                    <span class="popular-badge">Chef's Pick</span>
+                </div>
+                <div class="popular-card slide-up" style="transition-delay: 0.5s;">
+                    <div class="popular-icon">🍉</div>
+                    <h3>Watermelon Lemonade</h3>
+                    <span class="popular-badge">Summer Hit</span>
                 </div>
             </div>
         </div>
@@ -84,8 +136,10 @@
             <h2 class="fade-in">Our Menu</h2>
             <div class="menu-tabs fade-in">
                 <button class="tab-btn active" data-tab="coffee"><i class="fas fa-mug-hot"></i> Coffee & Drinks</button>
-                <button class="tab-btn" data-tab="food"><i class="fas fa-hamburger"></i> Food</button>
-                <button class="tab-btn" data-tab="hookah"><i class="fas fa-wind"></i> Hookah / Shisha</button>
+                <button class="tab-btn" data-tab="food"><i class="fas fa-seedling"></i> Healthy Food</button>
+                <button class="tab-btn" data-tab="fresh"><i class="fas fa-blender"></i> Fresh Juices</button>
+                <button class="tab-btn" data-tab="hookah"><i class="fas fa-wind"></i> Tobacco & Hookah</button>
+                <button class="tab-btn" data-tab="desserts"><i class="fas fa-cookie-bite"></i> Desserts</button>
             </div>
 
             <div class="menu-content fade-in">
@@ -94,39 +148,40 @@
                     <ul class="menu-list">
                         <li>
                             <div class="menu-item-info">
-                                <h4>Espresso</h4>
+                                <h4>Espresso <span class="lavazza-tag">Lavazza</span></h4>
                             </div>
                             <span class="price">60 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Cappuccino</h4>
+                                <h4>Cappuccino <span class="lavazza-tag">Lavazza</span></h4>
                             </div>
                             <span class="price">90 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Latte</h4>
+                                <h4>Latte <span class="lavazza-tag">Lavazza</span></h4>
                             </div>
                             <span class="price">100 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Iced Latte ❄️</h4>
+                                <p class="menu-desc">Fan favorite! Freshly made, perfectly chilled.</p>
+                            </div>
+                            <span class="price">120 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Matcha Latte 🍵</h4>
+                            </div>
+                            <span class="price">130 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
                                 <h4>Turkish Coffee</h4>
                             </div>
                             <span class="price">50 ден</span>
-                        </li>
-                        <li>
-                            <div class="menu-item-info">
-                                <h4>Fresh Orange Juice</h4>
-                            </div>
-                            <span class="price">120 ден</span>
-                        </li>
-                        <li>
-                            <div class="menu-item-info">
-                                <h4>Smoothie</h4>
-                            </div>
-                            <span class="price">150 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
@@ -142,19 +197,27 @@
                     <ul class="menu-list">
                         <li>
                             <div class="menu-item-info">
-                                <h4>Club Sandwich</h4>
+                                <h4>Hummus Sandwich 🥪</h4>
+                                <p class="menu-desc">Popular! Our signature healthy sandwich.</p>
                             </div>
                             <span class="price">200 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Caesar Salad</h4>
+                                <h4>Smoked Salmon Sandwich 🐟</h4>
+                                <p class="menu-desc">Smoked salmon, cucumber, tomato, iceberg, homemade sauce & sesame.</p>
+                            </div>
+                            <span class="price">250 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Caesar Salad 🥗</h4>
                             </div>
                             <span class="price">180 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Avocado Toast</h4>
+                                <h4>Avocado Toast 🥑</h4>
                             </div>
                             <span class="price">160 ден</span>
                         </li>
@@ -166,15 +229,48 @@
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Fresh Fruit Plate</h4>
+                                <h4>Fresh Fruit Plate 🍉</h4>
                             </div>
                             <span class="price">120 ден</span>
                         </li>
                         <li>
                             <div class="menu-item-info">
-                                <h4>Pancakes</h4>
+                                <h4>Pancakes 🥞</h4>
                             </div>
                             <span class="price">140 ден</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Fresh Juices Tab -->
+                <div class="tab-pane" id="fresh">
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Fresh Orange Juice 🍊</h4>
+                                <p class="menu-desc">Freshly squeezed, vitamin boost!</p>
+                            </div>
+                            <span class="price">120 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Watermelon Lemonade 🍉</h4>
+                                <p class="menu-desc">Ultimate summer refreshment.</p>
+                            </div>
+                            <span class="price">100 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Smoothie Bowl 🥣</h4>
+                                <p class="menu-desc">Must try! Topped with fresh fruits & granola.</p>
+                            </div>
+                            <span class="price">180 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Smoothie</h4>
+                            </div>
+                            <span class="price">150 ден</span>
                         </li>
                     </ul>
                 </div>
@@ -208,6 +304,34 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Desserts Tab -->
+                <div class="tab-pane" id="desserts">
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Peanut Ball 🥜</h4>
+                                <p class="menu-desc">NEW! Peanuts, dates, cocoa & oats — little cookie, big satisfaction!</p>
+                            </div>
+                            <span class="price">80 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Nuts-Toffee Cookie 🤎</h4>
+                                <p class="menu-desc">Signature! Natural nut power & date sweetness. Only at BITE.</p>
+                            </div>
+                            <span class="price">90 ден</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Wolt CTA -->
+            <div class="wolt-cta fade-in">
+                <p>🛵 Can't come? Order delivery!</p>
+                <a href="https://wolt.com/mk/mkd/ohrid/restaurant/bite10" target="_blank" class="btn-wolt">
+                    Order on Wolt
+                </a>
             </div>
         </div>
     </section>
@@ -218,16 +342,35 @@
             <h2 class="fade-in">Working Hours</h2>
             <div class="hours-card slide-up">
                 <div class="hours-row">
-                    <span class="day">Monday - Friday</span>
-                    <span class="time">08:00 - 00:00</span>
+                    <span class="day">Monday</span>
+                    <span class="time">08:00 - 22:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Tuesday</span>
+                    <span class="time">08:00 - 22:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Wednesday</span>
+                    <span class="time">08:00 - 22:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Thursday</span>
+                    <span class="time">08:00 - 22:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Friday</span>
+                    <span class="time">08:00 - 22:00</span>
                 </div>
                 <div class="hours-row">
                     <span class="day">Saturday</span>
-                    <span class="time">09:00 - 01:00</span>
+                    <span class="time">08:00 - 22:00</span>
                 </div>
-                <div class="hours-row">
+                <div class="hours-row sunday">
                     <span class="day">Sunday</span>
-                    <span class="time">10:00 - 23:00</span>
+                    <span class="time">Closed</span>
+                </div>
+                <div class="hours-note">
+                    <i class="fas fa-clock"></i> People usually spend 30 min – 3.5 hours here
                 </div>
             </div>
         </div>
@@ -241,24 +384,50 @@
                 <div class="contact-info slide-up">
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Ohrid, North Macedonia</p>
+                        <div>
+                            <p class="info-label">Address</p>
+                            <p>Булевар Македонски Просветители</p>
+                            <p>Охрид 6000, North Macedonia</p>
+                        </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone-alt"></i>
-                        <p>+389 XX XXX XXX</p>
+                        <div>
+                            <p class="info-label">Phone</p>
+                            <a href="tel:+38977803141" class="contact-link">077 803 141</a>
+                        </div>
                     </div>
                     <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>info@bite-ohrid.com</p>
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <p class="info-label">Rating</p>
+                            <p>⭐ 4.8 / 5 — 551 Google Reviews</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <p class="info-label">Price Range</p>
+                            <p>200 – 400 ден per person</p>
+                        </div>
                     </div>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/bite_ohrid/" target="_blank" title="Instagram @bite_ohrid">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100063717427064" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wolt.com/mk/mkd/ohrid/restaurant/bite10" target="_blank" title="Order on Wolt">
+                            <i class="fas fa-motorcycle"></i>
+                        </a>
+                        <a href="tel:+38977803141" title="Call us">
+                            <i class="fas fa-phone"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="map-container slide-up" style="transition-delay: 0.1s;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47475.29290076008!2d20.760195679549333!3d41.12151608933224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350db6587ea6657%3A0xc46cecca25b15be6!2sOhrid!5e0!3m2!1sen!2smk!4v1700000000000!5m2!1sen!2smk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.8!2d20.7955!3d41.1135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350dd0026fb3ce3%3A0xf8c9a4f76c22f8a1!2sBITE%20-%20healthy%20food%20%2C%20coffee%20%2C%20tobacco!5e0!3m2!1sen!2smk!4v1700000000000!5m2!1sen!2smk" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -267,12 +436,14 @@
     <!-- Footer -->
     <footer>
         <div class="container">
+            <div class="footer-logo">BITE</div>
+            <p class="footer-tagline">Healthy Food • Coffee • Tobacco — Ohrid</p>
             <div class="footer-social">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/bite_ohrid/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100063717427064" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wolt.com/mk/mkd/ohrid/restaurant/bite10" target="_blank"><i class="fas fa-motorcycle"></i></a>
             </div>
-            <p>&copy; 2026 Bite Ohrid. All rights reserved.</p>
+            <p>&copy; 2026 BITE Ohrid. All rights reserved.</p>
             <p class="made-with">Made with <i class="fas fa-heart" style="color: #c95c47;"></i> in Ohrid</p>
         </div>
     </footer>
