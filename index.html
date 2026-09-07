@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite Ohrid | Coffee, Food & Hookah</title>
+    <meta name="description" content="Welcome to Bite Ohrid — your cozy escape in the heart of Ohrid. We serve premium coffee, healthy food, and the finest hookah experience.">
+    <meta property="og:title" content="Bite Ohrid | Coffee, Food & Hookah">
+    <meta property="og:description" content="Your cozy escape in the heart of Ohrid. Premium coffee, healthy food, and the finest hookah experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="fallback_image_url">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo-link">
+                <img id="logo" src="" alt="BITE" style="display:none;">
+                <span class="logo-text">BITE</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#hours">Hours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h1>Bite Ohrid</h1>
+            <p class="tagline">Coffee • Food • Hookah — Ohrid</p>
+            <a href="#menu" class="btn-primary">View Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-text fade-in">
+                <h2>About Us</h2>
+                <p>Welcome to Bite Ohrid — your cozy escape in the heart of Ohrid. We serve premium coffee, healthy food, and the finest hookah experience. Come for the taste, stay for the vibe.</p>
+            </div>
+            <div class="features">
+                <div class="feature-card slide-up">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Premium Coffee</h3>
+                    <p>Expertly brewed coffee to start your day right.</p>
+                </div>
+                <div class="feature-card slide-up" style="transition-delay: 0.1s;">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Healthy Food</h3>
+                    <p>Delicious and nutritious meals for every taste.</p>
+                </div>
+                <div class="feature-card slide-up" style="transition-delay: 0.2s;">
+                    <i class="fas fa-smoking"></i>
+                    <h3>Hookah Lounge</h3>
+                    <p>Relax and unwind with our finest shisha flavors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="fade-in">Our Menu</h2>
+            <div class="menu-tabs fade-in">
+                <button class="tab-btn active" data-tab="coffee"><i class="fas fa-mug-hot"></i> Coffee & Drinks</button>
+                <button class="tab-btn" data-tab="food"><i class="fas fa-hamburger"></i> Food</button>
+                <button class="tab-btn" data-tab="hookah"><i class="fas fa-wind"></i> Hookah / Shisha</button>
+            </div>
+
+            <div class="menu-content fade-in">
+                <!-- Coffee Tab -->
+                <div class="tab-pane active" id="coffee">
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Espresso</h4>
+                            </div>
+                            <span class="price">60 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Cappuccino</h4>
+                            </div>
+                            <span class="price">90 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Latte</h4>
+                            </div>
+                            <span class="price">100 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Turkish Coffee</h4>
+                            </div>
+                            <span class="price">50 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Fresh Orange Juice</h4>
+                            </div>
+                            <span class="price">120 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Smoothie</h4>
+                            </div>
+                            <span class="price">150 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Ice Tea</h4>
+                            </div>
+                            <span class="price">80 ден</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Food Tab -->
+                <div class="tab-pane" id="food">
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Club Sandwich</h4>
+                            </div>
+                            <span class="price">200 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Caesar Salad</h4>
+                            </div>
+                            <span class="price">180 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Avocado Toast</h4>
+                            </div>
+                            <span class="price">160 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Granola Bowl</h4>
+                            </div>
+                            <span class="price">150 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Fresh Fruit Plate</h4>
+                            </div>
+                            <span class="price">120 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Pancakes</h4>
+                            </div>
+                            <span class="price">140 ден</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hookah Tab -->
+                <div class="tab-pane" id="hookah">
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Classic Flavors</h4>
+                            </div>
+                            <span class="price">300 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Premium Flavors</h4>
+                            </div>
+                            <span class="price">400 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Mix (2 flavors)</h4>
+                            </div>
+                            <span class="price">350 ден</span>
+                        </li>
+                        <li>
+                            <div class="menu-item-info">
+                                <h4>Special Mix</h4>
+                            </div>
+                            <span class="price">450 ден</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Hours Section -->
+    <section class="hours" id="hours">
+        <div class="container">
+            <h2 class="fade-in">Working Hours</h2>
+            <div class="hours-card slide-up">
+                <div class="hours-row">
+                    <span class="day">Monday - Friday</span>
+                    <span class="time">08:00 - 00:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Saturday</span>
+                    <span class="time">09:00 - 01:00</span>
+                </div>
+                <div class="hours-row">
+                    <span class="day">Sunday</span>
+                    <span class="time">10:00 - 23:00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="fade-in">Visit Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info slide-up">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Ohrid, North Macedonia</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+389 XX XXX XXX</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@bite-ohrid.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="map-container slide-up" style="transition-delay: 0.1s;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47475.29290076008!2d20.760195679549333!3d41.12151608933224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350db6587ea6657%3A0xc46cecca25b15be6!2sOhrid!5e0!3m2!1sen!2smk!4v1700000000000!5m2!1sen!2smk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p>&copy; 2026 Bite Ohrid. All rights reserved.</p>
+            <p class="made-with">Made with <i class="fas fa-heart" style="color: #c95c47;"></i> in Ohrid</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
