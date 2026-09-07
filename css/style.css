@@ -93,6 +93,13 @@ ul {
     color: var(--clr-brown-dark);
 }
 
+#logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -599,6 +606,12 @@ footer {
     font-weight: 800;
     letter-spacing: 5px;
     margin-bottom: 0.3rem;
+}
+
+.footer-logo-img {
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 .footer-tagline {
