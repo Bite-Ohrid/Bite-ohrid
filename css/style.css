@@ -440,6 +440,21 @@ ul {
     transform: translateY(-2px);
 }
 
+.delivery-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-wolt-alt {
+    background-color: var(--clr-olive);
+}
+
+.btn-wolt-alt:hover {
+    background-color: #5a5f4d;
+}
+
 /* Working Hours Section */
 .hours {
     padding: 5rem 0;
